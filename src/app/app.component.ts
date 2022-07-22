@@ -8,13 +8,8 @@ import { ServicosService } from './services/servicos.service';
 })
 export class AppComponent {
   title = 'my-dream-app';
-  
 
-  constructor(private service: ServicosService){
 
-  }
-  transferir($event){
-    this.service.adicionar($event);
+  constructor(private service: ServicosService){}
 
-  }
 }
